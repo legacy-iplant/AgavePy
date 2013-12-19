@@ -1,11 +1,9 @@
 import requests
 
-key = 'sSZmea1S_5_Rkpv1Od3HcxVh7B0a'
-secret = 'YiMyZbcjTy2uwEHyg5yME0tF8tEa'
 apihost = 'https://agave.iplantc.org/'
 
 class App:
-	def __init__(self, username='dalanders', password='Shadow@3876', key=key, secret=secret, apihost=apihost):
+	def __init__(self, username, password, key, secret, apihost=apihost):
 		self.apihost = apihost
 		self.username = username
 		self.password = password
