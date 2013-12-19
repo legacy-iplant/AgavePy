@@ -10,7 +10,6 @@ class App:
 		self.key = key
 		self.secret = secret
 		self.token = self.getToken()
-		self.renewtoken = self.
 
 	def getToken(self):
 		dataPayload = {'grant_type':'client_credentials','username':self.username,'password':self.password,'scope':'PRODUCTION'}
